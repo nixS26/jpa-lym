@@ -15,7 +15,7 @@ public class JPAFind {
         EntityManager en = emf.createEntityManager();
 
         //obtener libro
-        Libro libro = en.find(Libro.class, "A2");
+        Libro libro = en.find(Libro.class, "A1");
         System.out.println(libro);
 
 

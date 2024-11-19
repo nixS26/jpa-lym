@@ -7,10 +7,12 @@
 
         <class>pe.edu.cibertec.entity.Libro</class>
         <class>pe.edu.cibertec.entity.Categoria</class>
+        <class>pe.edu.cibertec.entity.Curso</class>
+        <class>pe.edu.cibertec.entity.Estudiante</class>
         <properties>
             <!-- Database connection settings -->
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/biblioteca2"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/biblioteca"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
             <property name="jakarta.persistence.jdbc.password" value="Stigmata2612."/>
             <!-- Echo all executed SQL to console -->

@@ -18,7 +18,7 @@ public class Libro {
     private Double precio;
 
 
-    @ManyToOne
+    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
     @JoinColumn(name = "codigo_categoria")
     private Categoria categoria;
 
